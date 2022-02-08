@@ -1,1 +1,1 @@
-# ModernArcade-by-Ayushman-Rekhi
+# ModernArcade-by-Ayushman-and-Rekhi
