@@ -1,3 +1,5 @@
+
+# Mini- games using Python (pygame) by Ayushman Pranav and Aryan Rekhi .
 import pygame
 import random
 import math
