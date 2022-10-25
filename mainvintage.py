@@ -363,7 +363,7 @@ while running:
                     if event.key == pygame.K_4:
                         superman = True
                         mixer.music.stop()
-                        mixer.music.load("Stamina Airborne OST.wav")
+                        mixer.music.load("Vegeta.wav")
                         mixer.music.play(-1)
                         fps = 32
                         """screenwidth = 289
@@ -544,7 +544,7 @@ while running:
                        stan = pygame.image.load('pics\\GokuSx.png')
 
                        Gh = pygame.image.load('pics\\gh1-modified.png')
-                       Vh = pygame.image.load('pics\\Vh.png')
+                       #Vh = pygame.image.load('pics\\Vh.png')
 
                        bgm = pygame.mixer.music.load(
                            "pics\\Royal Blue (Vegeta's Limit Breaker Theme) - Dragon Ball Super (Extended Version).wav")
@@ -719,7 +719,7 @@ while running:
                            goku.draw(win)
                            vegeta.draw(win)
                            win.blit(Gh, (10, 10))
-                           win.blit(Vh, (490, 10))
+                           #win.blit(Vh, (490, 10))
 
                            for kiblast in kiblasts:
                                kiblast.draw(win)
